@@ -1,0 +1,17 @@
+[project]
+name = "cartgame"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Zen Tang", email = "zen.tang@tiktokusds.com" }
+]
+dependencies = [
+    "pygame>=2.6.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
